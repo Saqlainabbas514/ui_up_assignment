@@ -1,3 +1,7 @@
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+        padding-right: 0 !important;
+    padding-left: 0 !important;
+}
 img {
 	max-width: 100%;
 }
@@ -14,33 +18,15 @@ img {
     margin: 0 auto;
     padding-top: 76px;
 }
-/*.navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 4.25rem;
-    line-height: 1;
-    background-color: #080ed7;
-    border: 10px solid #d11111;
-    border-radius: 0.25rem;
-    position: relative;
-    top: -621px;
-}*/
+.collaborate_box{
+   padding: 10;
+}
 .bg-light {
     background-color: #f8f9fa0a!important;
 }
 .bg-light {
     background-color: #3535d8!important;
 }
-
-/*.nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    
-    position: absolute;
-    top: -690px;
-    left: 730px;
-    
-}*/
 .navbar {
     /* position: relative; */
     display: -ms-flexbox;
@@ -357,7 +343,7 @@ a {
     /* text-align: left; */
     margin-top: 50px;
     height: 400px;
-    background-color: #f2f2f2;
+    background-color: #f9f9f9;
     display: flex;
     text-align: center;
     align-items: center;
@@ -368,7 +354,7 @@ a {
   margin-top: 0px;
 }
 .minibox {
-    width: 322px;
+    width: 75%;
     height: 106px;
     background-color: #f8f9fa;
     position: absolute;
@@ -426,7 +412,7 @@ a {
     padding: 0px;
     margin-top: 490px;
 }.minibox {
-    width: 322px;
+    width: 75%;
     height: 106px;
     background-color: #f8f9fa;
     position: absolute;
@@ -583,7 +569,7 @@ a {
   .style21 {
     margin-top: 50px;
     height: 400px;
-    background-color: #f2f2f2;
+    background-color: #f9f9f9;
     display: flex;
     text-align: center;
     align-items: center;
@@ -614,17 +600,166 @@ a {
 
 }
 .minibox {
-    width: 322px;
+    width: 75%;
     height: 106px;
     background-color: #f8f9fa;
     position: absolute;
-    top: 226px;
-    left: 213px;
+    top: 80px;
+    left: px;
     color: black;
 }
 
  }
- @media  (max-width: 425px) {
+ @media  (max-width: 750px) {
+    .boot{width:120px;}
+
+    .style-top-box-images {
+    position: relative;
+    float: center;
+    left: 89px;
+    top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .next {
+    width: 356px;
+    position: absolute;
+    height: 279px;
+    background-color: transparent;
+    color: black;
+    top: -531px;
+    left: 0px;
+}
+.ts {
+    position: absolute;
+    top: 14px;
+    margin-left: 0px;
+    color: white;
+    font-size: 20px;
+}
+.style5 {
+    position: relative;
+    margin-top: 18px;
+    font-size: 35px;
+    font-family: inherit;
+    padding: 20px;
+}
+.style6 {
+    color: #262de5;
+    font-size: 20px;
+    margin-left: 29px;
+}
+.ysb{
+    font-size: 27px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.padd {
+    margin-top: 40px;
+    width: 130%;
+    height: 162px;
+    background-color: #efeaea1a;
+    margin-left: -149px;
+}
+.style12 {
+    text-align: center;
+    padding: 0px;
+}
+.style13 {
+    font-size: 37px;
+    font-family: revert;
+    margin-bottom: 71px;
+    margin-top: 413px;
+}
+.minibox {
+    width: 274px;
+    height: 106px;
+    background-color: #f8f9fa;
+    position: absolute;
+    top: 191px;
+    left: 58px;
+    color: black;
+}
+.style33 {
+    padding-top: 144px;
+    font-family: inherit;
+    font-size: large;
+}
+.style44{
+  color: grey;
+
+}
+.servicebox {
+    width: 262px;
+    height: 332px;
+
+}
+
+.style21 {
+    padding-left: 10px;
+    margin-top: 36px;
+    height: 400px;
+    background-color: #f9f9f9;
+    text-align: initial;
+    height: 478px;
+    padding-top: 0px;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    margin-left: 310px;
+    color: white;
+}
+  .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 33rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    padding: 0px;
+}
+.navbar {
+    /* position: relative; */
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    /* align-items: center; */
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    /* padding: .5rem 1rem; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.slide1 {
+    /* float: left; */
+    position: relative;
+    left: 0px;
+}
+.mainbox {
+    /* width: 80%; */
+    /* height: 50%; */
+    background-color: none;
+    /* position: relative; */
+    /* top: -87px; */
+    /* left: 240px; */
+    margin-top: 0px;
+    margin-bottom: 85px;
+}
+.bg-light {
+    background-color: #2d2de0!important;
+}
+}
+ @media  (max-width: 426px) {
     .boot{width:120px;}
 
     .style-top-box-images {
@@ -691,7 +826,7 @@ a {
     background-color: #f8f9fa;
     position: absolute;
     top: 191px;
-    left: 98px;
+    left: 58px;
     color: black;
 }
 .style33 {
@@ -713,7 +848,7 @@ a {
     padding-left: 10px;
     margin-top: 36px;
     height: 400px;
-    background-color: #f2f2f2;
+    background-color: #f9f9f9;
     text-align: initial;
     height: 478px;
     padding-top: 0px;
@@ -849,7 +984,7 @@ a {
     margin-top: 413px;
 }
 .minibox {
-    width: 274px;
+    width: 65%;
     height: 106px;
     background-color: #f8f9fa;
     position: absolute;
@@ -876,7 +1011,7 @@ a {
     padding-left: 10px;
     margin-top: 36px;
     height: 400px;
-    background-color: #f2f2f2;
+    background-color: #f9f9f9;
     text-align: initial;
     height: 478px;
     padding-top: 0px;
@@ -995,7 +1130,7 @@ a {
     margin-top: 413px;
 }
 .minibox {
-    width: 274px;
+    width: 65%;
     height: 106px;
     background-color: #f8f9fa;
     position: absolute;
@@ -1022,9 +1157,9 @@ a {
     padding-left: 10px;
     margin-top: 36px;
     height: 400px;
-    background-color: #f2f2f2;
+    background-color: #f9f9f9;
     text-align: initial;
-    height: 478px;
+   /* height: 478px;*/
     padding-top: 0px;
 }
 .navbar {
